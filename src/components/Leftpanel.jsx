@@ -6,7 +6,7 @@ import { sidelinks } from "../assets/data";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import { useStateContext } from "../context/ContextProvider";
 
-const Sidebar = () => {
+const Leftpanel = () => {
   const { activeMenu } = useStateContext();
   return (
     <>
@@ -145,4 +145,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default Leftpanel;

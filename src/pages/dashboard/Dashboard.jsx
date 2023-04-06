@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import React from "react";
 import { tasks } from "../../assets/data";
-import DashboardHeader from "../../components/dashboard/DashboardHeader";
+import DashboardHeader from "../../components/dashboard/Header";
 import Filter from "../../components/dashboard/Filter";
 import Tasks from "../../components/Tasks";
 

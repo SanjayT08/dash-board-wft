@@ -1,8 +1,8 @@
 import { Box } from "@mui/material";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import RightSidebar from "./components/RightSidebar";
-import Sidebar from "./components/Sidebar";
+import Iconpanel from "./components/Iconpanel";
+import Leftpanel from "./components/Leftpanel";
 import { useStateContext } from "./context/ContextProvider";
 import Dashboard from "./pages/dashboard/Dashboard"
 
@@ -33,7 +33,7 @@ const App = () => {
               top: "80px"
             }}
           >
-            <Sidebar />
+            <Leftpanel />
           </Box>
         ) : (
           <Box
@@ -43,7 +43,7 @@ const App = () => {
               scrollBehavior: "smooth",
             }}
           >
-            <Sidebar />
+            <Leftpanel />
           </Box>
         )}
         <main className="main">
@@ -67,7 +67,7 @@ const App = () => {
               justifyContent: "center",
             }}
           >
-            <RightSidebar />
+            <Iconpanel />
           </Box>
         
       </Box>

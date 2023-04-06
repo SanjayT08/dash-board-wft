@@ -2,7 +2,7 @@ import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
 import { usersData } from "../assets/data";
 
-const RightSidebar = () => {
+const Iconpanel = () => {
   return (
     <Box>
       <Stack gap="12px" marginTop="10rem">
@@ -131,4 +131,4 @@ const RightSidebar = () => {
   );
 };
 
-export default RightSidebar;
+export default Iconpanel;
